@@ -1,0 +1,20 @@
+{
+  "nav.issues_returns": "Issues & returns",
+  "orders.issue_date": "Issue date",
+  "orders.issued_date": "Issued date",
+  "orders.date_of_issue": "Date issued",
+  "orders.submit": "Submit order",
+  "orders.submit_btn": "Submit order",
+  "orders.submit_caps": "SUBMIT ORDER",
+  "returns.submit": "Submit order.",
+  "pallets.dehire": "De-hire pallets",
+  "pallets.offhire": "Off-hire pallets",
+  "level.one": "Condition grade 1",
+  "level.two": "Condition grade 2",
+  "error.ZPOOL.001.message": "Docket {V1} was rejected.",
+  "currency": "EUR",
+  "brand": "CHEP",
+  "ok": "OK",
+  "pool.exchange": "Pallet exchange",
+  "pool.note": "Collections are booked by the depot"
+}

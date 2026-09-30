@@ -1,0 +1,37 @@
+{
+  "name": "locale-scan",
+  "version": "0.1.0",
+  "description": "Scan i18n locale files for duplicate, variant, missing and unused strings",
+  "type": "module",
+  "bin": {
+    "locale-scan": "dist/bin.js"
+  },
+  "files": [
+    "dist",
+    "aligner/align.py",
+    "aligner/requirements.txt"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsx src/bin.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "setup:aligner": "python3 -m venv aligner/.venv && aligner/.venv/bin/pip install -r aligner/requirements.txt",
+    "test:aligner": "cd aligner && .venv/bin/python -m unittest test_align"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
+    "@google/genai": "^2.24.0",
+    "zod": "^4.6.5"
+  }
+}

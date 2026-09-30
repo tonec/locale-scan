@@ -1,0 +1,8 @@
+node_modules/
+dist/
+reports/
+*.local.json
+!test/fixtures/src/node_modules/
+aligner/.venv/
+aligner/.cache/
+__pycache__/

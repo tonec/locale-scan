@@ -1,0 +1,20 @@
+{
+  "nav.issues_returns": "Ausgaben & Rückgaben",
+  "orders.issue_date": "Ausgabedatum",
+  "orders.issued_date": "",
+  "orders.date_of_issue": "Date issued",
+  "orders.submit": "Auftrag senden",
+  "orders.submit_btn": "Auftrag senden",
+  "orders.submit_caps": "AUFTRAG SENDEN",
+  "returns.submit": "Auftrag senden.",
+  "pallets.dehire": "De-hire pallets",
+  "pallets.offhire": "Paletten abmelden",
+  "level.one": "Zustandsklasse 1",
+  "level.two": "Zustandsklasse 2",
+  "error.ZPOOL.001.message": "Beleg {V1} wurde abgelehnt.",
+  "currency": "EUR",
+  "brand": "CHEP",
+  "ok": "OK",
+  "pool.exchange": "Pallet exchange",
+  "legacy.unused": "Veraltet"
+}
